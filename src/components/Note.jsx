@@ -1,6 +1,6 @@
 const Note = ({ id, text, date, handleDeleteNote }) => {
     return (
-        <div className="flex flex-col text-white justify-between whitespace-pre-wrap bg-gray-700 rounded-xl p-4">
+        <div className="flex flex-col text-white justify-between whitespace-pre-wrap bg-gray-700 rounded-xl p-4 min-h-44">
             <span >{text}</span>
             <div className="flex items-center justify-between">
                 <small className="text-slate-500 subpixel-antialiased">{date}</small>

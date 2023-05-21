@@ -18,7 +18,7 @@ const AddNote = ({ handleAddNote }) => {
 
     return (
         <div className="flex flex-col justify-between whitespace-pre-wrap bg-gray-700 rounded-lg p-4 ">
-            <textarea className="border-none subpixel-antialiased rounded-lg text-white resize-none bg-gray-700 focus:outline-none" cols="36" rows="7" placeholder="Type something..." value={noteText} onChange={handleChange} />
+            <textarea className="border-none subpixel-antialiased rounded-lg text-white resize-none bg-gray-700 focus:outline-none" rows="7" placeholder="Type something..." value={noteText} onChange={handleChange} />
             <div className="flex items-center justify-between">
                 <small className="text-white ">{MaxText - noteText.length} Remining</small>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7 text-white hover:cursor-pointer " onClick={handleSave}>

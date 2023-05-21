@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <div className="flex items-center justify-between">
             <div>
-                <span className="text-white gi text-xl md:text-2xl font-semibold">Simple Note Website</span>
+                <span className="text-white subpixel-antialiased text-xl md:text-2xl font-semibold">Simple Note Website</span>
             </div>
             <div className="inline-flex">
             <a href="https://trakteer.id/eskey/tip" className="text-white py-2.5 text-center">
